@@ -10,4 +10,7 @@ books = Book.create!([
     {title: 'Howdy', author: 'Aggies', price: '20.23', published_date: '2020-05-12'}
 ])
 
-users = User.create!([{username: 'Carolini'}, {username: 'Miss Rev'}])
+users = User.create!([
+    {username: 'Carolini'}, 
+    {username: 'Miss Rev'}
+])
